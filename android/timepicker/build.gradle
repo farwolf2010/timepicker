@@ -42,5 +42,5 @@ dependencies {
 //    compile 'org.weex.plugin:processor:1.0.2'
 //    apply plugin: 'com.android.library'
 //    apply plugin: 'com.github.dcendents.android-maven'
-    api 'com.farwolf.weexplus:farwolf.weex:latest.integration'
+    api project(':farwolf.weex')
 }
