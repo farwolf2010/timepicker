@@ -28,7 +28,7 @@ Pod::Spec.new do |s|
    s.source_files  = "Source", "**/**/*.{h,m,mm,c}"
 
   s.requires_arc = true
-   s.dependency 'farwolf.weex'
+   s.dependency 'weexplus'
 
   
 end

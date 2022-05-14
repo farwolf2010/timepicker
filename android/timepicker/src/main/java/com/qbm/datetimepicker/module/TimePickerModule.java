@@ -1,13 +1,14 @@
 package com.qbm.datetimepicker.module;
 
-import android.support.annotation.Nullable;
 
-import com.farwolf.weex.annotation.WeexModule;
+import androidx.annotation.Nullable;
+
 import com.qbm.datetimepicker.widget.CustomDatePicker;
 import com.taobao.weex.annotation.JSMethod;
 import com.taobao.weex.bridge.JSCallback;
 import com.taobao.weex.common.WXModule;
 import com.taobao.weex.utils.WXResourceUtils;
+import com.weexplus.core.plugin.WeexModule;
 
 import java.text.SimpleDateFormat;
 import java.util.Date;
